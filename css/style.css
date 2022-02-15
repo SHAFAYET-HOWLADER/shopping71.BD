@@ -1,0 +1,79 @@
+body {
+    background-color: #d1d1d1;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+header span {
+    color: #ff007b;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+/*---------|--phone view start--|-----------*/
+.phone_view {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    background-color: #f5f4e8;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.phone_view_math {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.phone_view_phone img {
+    width: 60%;
+    object-fit: cover;
+}
+
+.phone_view_math .minus {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+.phone_view_math input {
+    border: none;
+    padding: 4px 5px;
+    font-size: 22px;
+    transition: all linear .4s;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+input:focus {
+    background-color: rgba(197, 76, 131, 0.146);
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 10px;
+}
+
+/*---------|--phone view end--|-----------*/
+
+/*---------|--total view start--|-----------*/
+.total_calulation {
+    background-color: #f5f4e8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: start;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+/*---------|--toatl view end--|-----------*/

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping cart</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- font awesome link -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@300;400&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- google fonts -->
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- custom css link -->
+</head>
+
+<body>
+
+    <header>
+        <h1>welcome to shopping <span>71.BD</span></h1>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="phone_view">
+                    <div class="phone_view_phone">
+                        <img src="images/mobile.png" alt="mobile">
+                    </div>
+                    <div class="phone_view_math">
+                        <p id="phone_minus" class="minus">-</p>
+                        <input type="number" id="phone-number" value="1">
+                        <i style="font-size: 50px; cursor: pointer;" class="fa-solid fa-plus" id="phone_plus"></i>
+                    </div>
+                    <div class="phone_price">
+                        <h3>$ <span id="phone-total">25000</span></h3>
+                    </div>
+                    <div class="phone_view_remove">
+                        <img id="phone-cross" src="images/remove.png" alt="remove">
+                    </div>
+                </div>
+
+                <div class="phone_view">
+                    <div class="phone_view_phone">
+                        <img src="images/phone-casing.png" alt="mobile">
+                    </div>
+                    <div class="phone_view_math">
+                        <p id="casing_minus" class="minus">-</p>
+                        <input id="casing-number" type="number">
+                        <i id="casing_plus" style="font-size: 50px; cursor: pointer;" class="fa-solid fa-plus"
+                            value="1"></i>
+                    </div>
+                    <div class="phone_price">
+                        <h3>$ <span id="casing-total">60</span></h3>
+                    </div>
+                    <div class="phone_view_remove">
+                        <img id="casing-cross" src="images/remove.png" alt="remove">
+                    </div>
+                </div>
+                <div class="total_calulation">
+                    <div class="value_name">
+                        <h3>Sub Total : </h3>
+                        <h3>Tax : </h3>
+                        <h3>Total : </h3>
+                    </div>
+                    <div class="value">
+                        <h3>$ <span id="sub_total">00</span></h3>
+                        <h3>$ <span id="tax_total">00</span></h3>
+                        <h3>$ <span id="total">00</span></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+
+
+
+
+
+    <!-- js link -->
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
